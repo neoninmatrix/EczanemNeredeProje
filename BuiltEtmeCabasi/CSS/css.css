@@ -1,0 +1,139 @@
+﻿*, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Noto Sans Syriac Eastern', sans-serif;
+}
+
+.baslik1 {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: 600;
+    color: #F44A52;
+    font-size: 45pt;
+    cursor: pointer;
+    user-select:none;
+}
+
+.slogan {
+    color: #a4a4a4;
+    cursor: pointer;
+    margin-left: 5px;
+    user-select:none;
+}
+
+.header {
+    padding: 10px 20px;
+    border-bottom: 3px solid #F44A52;
+}
+
+.form {
+    width: 500px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #a4a4a4;
+    border-radius: 6px;
+    margin-top: 50px;
+}
+
+.baslik2 {
+    text-align: center;
+    color: #3C4C57;
+    font-size: 40px;
+    font-family: 'Noto Sans Syriac Eastern', sans-serif;
+    margin-top: 15px;
+}
+
+.yataycizgi1 {
+    width: 480px;
+    height: 2px;
+    background-color: #a4a4a4;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sutun {
+    padding: 8px 10px;
+    margin-top: 15px;
+}
+
+.isim {
+    font-size: 20pt;
+    font-family: 'Noto Sans Syriac Eastern', sans-serif;
+    color: #3C4C57;
+}
+
+.isimtextbox {
+    width: 460px;
+    height: 30px;
+    font-size: 15pt;
+    padding: 5px 3px;
+    border-radius: 7px;
+    background-color: #eeeeee;
+    outline: none;
+    border: 1px solid #a4a4a4;
+}
+
+    .isimtextbox:hover {
+        background-color: #d2d2d2;
+    }
+
+
+.sifre {
+    font-size: 20pt;
+    font-family: 'Noto Sans Syriac Eastern', sans-serif;
+    color: #3C4C57;
+}
+
+.sifretextbox {
+    width: 460px;
+    height: 30px;
+    font-size: 15pt;
+    padding: 5px 3px;
+    border-radius: 7px;
+    background-color: #eeeeee;
+    border: 1px solid #a4a4a4;
+    outline: none;
+}
+
+    .sifretextbox:hover {
+        background-color: #d2d2d2;
+    }
+
+.buttonsutun {
+    margin-top: 20px;
+}
+
+.girisbuton {
+    color: white;
+    text-decoration: none;
+    background-color: #F44A52;
+    border-radius: 20px;
+    padding: 15px 30px;
+    float: right;
+    margin-right: 100px;
+}
+
+    .girisbuton:hover {
+        background-color: #f4111b;
+    }
+
+.hatapanel {
+    width: 480px;
+    min-height: 20px;
+    background-color: red;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    padding:5px 2px;
+}
+.hatalabel {
+    color: white;
+    font-family: 'Noto Sans Syriac Eastern', sans-serif;
+}
+

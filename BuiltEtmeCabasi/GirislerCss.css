@@ -1,0 +1,836 @@
+﻿*, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Noto Sans Syriac Eastern', sans-serif;
+}
+
+header {
+    text-decoration: none;
+    user-select: none;
+    border-bottom: 3px solid #F44A52;
+    padding: 15px 10px;
+}
+
+
+    header .LogoSatir {
+        float: left;
+        width: 400px;
+    }
+
+    header a {
+        text-decoration: none;
+    }
+
+.Logo {
+    font-size: 35pt;
+    font-family: 'Noto Sans Syriac Eastern', sans-serif;
+    color: #F44A52;
+}
+
+header .Slogan {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 15pt;
+    color: #a4a4a4;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.UyeOlmaPanel {
+    width: 800px;
+    min-height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5px;
+}
+
+    .UyeOlmaPanel .UyeOlmaBaslikKutu {
+        border: 2px solid #8d8d8d;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        text-align: center;
+        padding: 5px;
+        padding-top: 7px;
+    }
+
+.UyeOlmaIcerik {
+    border: 2px solid #8d8d8d;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+
+    .UyeOlmaIcerik .SolTaraf {
+        float: left;
+        margin-right: 150px;
+    }
+
+    .UyeOlmaIcerik .SagTaraf {
+        float: left;
+    }
+
+.Satir {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+    .Satir .Kutu {
+        margin-left: 40px;
+        margin-top: 5px;
+        width: 200px;
+        height: 25px;
+        border: 1px solid #8d8d8d;
+        outline: #6c6c6c;
+        padding: 5px 7px;
+        font-size: 15pt;
+        border-radius: 5px;
+    }
+
+        .Satir .Kutu:hover {
+            background-color: #d5d5d5;
+        }
+
+.BasariliPanel {
+    background-color: #8eff9d;
+    border: 3px solid green;
+    border-radius: 15px;
+    color: green;
+    padding: 5px 7px;
+    padding-top: 8px;
+    margin-top: 5px;
+}
+
+.BasarisizPanel {
+    background-color: #fcc5c8;
+    border: 3px solid red;
+    border-radius: 15px;
+    color: red;
+    padding: 5px 7px;
+    padding-top: 8px;
+    margin-top: 5px;
+}
+
+.ButtonSatir {
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    padding-top: 30px;
+    padding-left: 30px;
+    margin-bottom: 50px;
+}
+
+.UyeOlButton {
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: darkorange;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+
+    .UyeOlButton:hover {
+        background-color: #d67500;
+    }
+
+.UyeGirisPanel {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.UyeGirisBaslikKutu {
+    text-align: center;
+    border: 2px solid #8d8d8d;
+    padding: 7px;
+    padding-top: 9px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.UyeGirisIcerik {
+    margin-top: 8px;
+    border: 2px solid #8d8d8d;
+    padding: 15px;
+}
+
+.UyeGirisSatir {
+    margin-bottom: 9px;
+}
+
+.UyeGirisKutu {
+    border-radius: 5px;
+    font-size: 12pt;
+    width: 300px;
+    padding: 5px 10px;
+    border: 2px solid #8d8d8d;
+    outline-color: #494949;
+}
+
+    .UyeGirisKutu:hover {
+        background-color: #8d8d8d;
+    }
+
+.UyeGirisButtonSatir {
+    padding: 15px;
+}
+
+.UyeGirisButton {
+    text-decoration: none;
+    color: white;
+    background-color: orange;
+    padding: 7px 25px;
+    border-radius: 10px;
+}
+
+    .UyeGirisButton:hover {
+        background-color: #d67500;
+    }
+
+.UyeGirisBasarisizPanel {
+    background-color: #ffb8b8;
+    color: red;
+    border: 2px solid red;
+    border-radius: 7px;
+    padding: 5px 8px;
+    margin-top: 8px;
+}
+/*
+.UyeBilgileriPanel {
+    margin-top: 50px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .UyeBilgileriPanel .UyeBilgileriHeader {
+        padding: 5px 10px;
+        border: 2px solid black;
+        background-color: silver;
+    }
+
+        .UyeBilgileriPanel .UyeBilgileriHeader .UyeBilgileriBaslik {
+            margin-top: 3px;
+        }
+
+.UyeBilgileriIcerik {
+    padding: 10px;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+    .UyeBilgileriIcerik label {
+        font-size: 18pt;
+    }
+
+.UyeBilgileriPanel .UyeBilgiKutu {
+    width: 300px;
+    height: 30px;
+    font-size: 15pt;
+    padding: 2px 5px;
+    border-radius: 5px;
+    border: 1px solid #8d8d8d;
+    outline-color: #626262;
+}
+
+    .UyeBilgileriPanel .UyeBilgiKutu:hover {
+        background-color: #e7e7e7;
+    }
+
+.UyeBilgileriIcerik .UyeIsimSatir, .UyeSoyisimSatir {
+    margin-top: 10px;
+    float: left;
+}
+
+.UyeBilgileriIcerik .UyeIsimSatir {
+    margin-right: 100px;
+}
+
+.UyeBilgileriIcerik .UyeMailSatir, .UyeAdiSatir {
+    float: left;
+    margin-top: 10px;
+}
+
+.UyeBilgileriIcerik .UyeMailSatir {
+    margin-right: 100px;
+}
+
+.UyeSifreSatir, .UyeSifreTekrarSatir {
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.UyeSifreSatir {
+    margin-right: 100px;
+}
+
+.ButtonSatir {
+    float: right;
+    margin-right: 100px;
+}
+
+.BilgileriDegistirmeButton {
+    background-color: #00ba00;
+    color: white;
+    text-decoration: none;
+    padding: 7px 60px;
+    border-radius: 10px;
+    transition: 200ms all;
+}
+
+    .BilgileriDegistirmeButton:hover {
+        background-color: green;
+    }
+
+.yataycizgi {
+    width: 700px;
+    height: 2px;
+    background-color: #8d8d8d;
+    margin: 50px 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.EczaneBilgileriPanel {
+    margin-top: 50px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.EczaneBilgileri {
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+    .EczaneBilgileri label {
+        font-size: 18pt;
+    }
+
+.EczaneBilgileriBaslikSatir {
+    padding: 5px 10px;
+    border: 2px solid black;
+    background-color: silver;
+}
+
+.EczaneBilgileriBaslik {
+    font-size: 15pt;
+}
+
+.EczaneAdiSatir, EczaneTakmaAdiSatir {
+    float: left;
+}
+
+.EczaneAdiSatir {
+    margin-right: 100px;
+}
+
+.EczaneSifre, .EczaneTekrarSifre {
+    margin-top: 10px;
+    float: left;
+}
+
+.EczaneSifre{
+    margin-right: 100px;
+}
+
+.EczaneBilgiKutu {
+    width: 300px;
+    height: 30px;
+    font-size: 15pt;
+    padding: 2px 5px;
+    border-radius: 5px;
+    border: 1px solid #8d8d8d;
+    outline-color: #626262;
+}
+
+.EczaneResimSatir {
+    margin: 15px 5px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.EczaneKonumSatir {
+    text-align: center;
+    margin-top: 20px;
+}
+
+    .EczaneKonumSatir .EczaneBilgiKutu {
+        width: 765px;
+        height: 211px;
+        border-radius: 0px 10px;
+        padding: 5px;
+    }
+
+.IlacBilgileriPanel {
+    margin-top: 50px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .IlacBilgileriPanel .IlacBilgileriBaslikSatir {
+        padding: 5px 10px;
+        border: 2px solid black;
+        background-color: silver;
+    }
+
+.IlacBilgileriBaslik {
+    font-size: 15pt;
+}
+
+    .IlacBilgileriPanel label {
+        font-size: 18pt;
+    }
+
+.IlacBilgileri {
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+    .IlacBilgileri .IlacKategoriSatir, .IlacIsimSatir, .IlacMarkaSatir, .IlacAciklamaSatir {
+        margin-top: 10px;
+    }
+
+    .IlacBilgileri .IlacBilgileriKutu {
+        width: 760px;
+        height: 30px;
+        font-size: 15pt;
+        padding: 2px 5px;
+        border-radius: 5px;
+        border: 1px solid #8d8d8d;
+        outline-color: #626262;
+    }
+
+.IlacBilgileriAciklama {
+    width: 765px;
+    height: 211px;
+    border-radius: 0px 10px;
+    font-size: 15pt;
+    padding: 5px;
+}
+
+.KapsayiciPanel {
+    border: 2px solid silver;
+    margin: 20px;
+    width: 850px;
+    margin-right: auto;
+    margin-left: auto;
+}*/
+
+.BilgiPanelleriPanel {
+    width: 500px;
+    background-color: #f7f6f6;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 10px;
+    margin-top: 20px;
+    border: 1px solid gray;
+    box-shadow: -1px 0px 9px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 0px 9px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 0px 9px 0px rgba(0,0,0,0.75);
+}
+
+    .BilgiPanelleriPanel .UyeBilgiPanel .UyeBilgiHeader {
+        text-align: center;
+        padding: 8px 5px 5px 5px;
+        border: 1px solid black;
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+        background-color: #9f9f9f;
+    }
+
+    .BilgiPanelleriPanel .UyeBilgiPanel .UyeBilgileriIcerik .PanelHata {
+        background-color: #ffa8a8;
+        color: red;
+        border: 1px solid red;
+        padding: 4px 5px 2px 5px;
+        font-size: 14pt;
+        border-radius: 10px;
+    }
+
+
+    .BilgiPanelleriPanel .UyeBilgiPanel .UyeBilgileriIcerik .PanelBasarili {
+        margin-top: 5px;
+        background-color: #add8ad;
+        color: green;
+        border: 1px solid green;
+        padding: 4px 5px 2px 5px;
+        font-size: 14pt;
+        border-radius: 10px;
+    }
+
+    .BilgiPanelleriPanel .UyeBilgiPanel .UyeBilgileriIcerik {
+        padding: 10px;
+        border: 1px solid black;
+        border-top: none;
+    }
+
+        .BilgiPanelleriPanel .UyeBilgiPanel .UyeBilgileriIcerik .BilgiSatir {
+            margin-left: 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+            .BilgiPanelleriPanel .UyeBilgiPanel .UyeBilgileriIcerik .BilgiSatir .UyeBilgileriKutu {
+                width: 400px;
+                padding: 3px 10px;
+                margin-left: 15px;
+                margin-bottom: 10px;
+                font-size: 13pt;
+                border-radius: 5px;
+                border: 2px solid #8d8d8d;
+            }
+
+                .BilgiPanelleriPanel .UyeBilgiPanel .UyeBilgileriIcerik .BilgiSatir .UyeBilgileriKutu:focus {
+                    outline-color: #4b4b4b;
+                    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+                    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+                    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+                }
+
+.UyeBilgiHeader {
+    margin-top: 20px;
+    text-align: center;
+    padding: 8px 5px 5px 5px;
+    border: 1px solid black;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    background-color: #9f9f9f;
+}
+
+.UyeBilgileriIcerik {
+    padding: 10px;
+    border: 1px solid black;
+    border-top: none;
+}
+
+.BilgiSatir {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.UyeBilgileriKutu {
+    width: 400px;
+    padding: 3px 10px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    font-size: 13pt;
+    border-radius: 5px;
+    border: 2px solid #8d8d8d;
+}
+
+    .UyeBilgileriKutu:hover {
+        outline-color: #4b4b4b;
+        box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    }
+
+.ButtonlarinSatir {
+    padding: 5px;
+}
+
+.EkleButton {
+    padding: 10px 30px;
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    float: right;
+}
+
+.KaydetButton {
+    padding: 10px 30px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    float: right;
+    margin-right: 20px;
+}
+
+    .KaydetButton:hover {
+        background-color: darkgreen;
+    }
+
+.EkleButton:hover {
+    background-color: darkorange;
+}
+
+.EczaneResim {
+    border: 1px solid black;
+    padding: 10px;
+    width: 420px;
+}
+
+.IlacBilgiBaslik {
+    margin-top: 20px;
+    text-align: center;
+    padding: 8px 5px 5px 5px;
+    border: 1px solid black;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    background-color: #9f9f9f;
+}
+
+.IlacBilgiIcerikPanel {
+    padding: 10px;
+    border: 1px solid black;
+    border-top: none;
+}
+
+.IlaclariListeleme {
+    padding: 5px;
+    background-color: #F7F6F6;
+    width: 1200px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-bottom: 100px;
+    margin-left: auto;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    padding: 20px;
+}
+
+.IlacListelemeHeader {
+    margin-top: 20px;
+    text-align: center;
+    padding: 8px 5px 5px 5px;
+    border: 1px solid black;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    background-color: #9f9f9f;
+}
+
+.IlacListelemeIcerik {
+    margin-top: 5px;
+    border: 1px solid black;
+}
+
+    .IlacListelemeIcerik table tr {
+        width: 800px;
+        padding: 10px;
+    }
+
+        .IlacListelemeIcerik table tr th {
+            background-color: #9f9f9f;
+            padding-left: 76.3px;
+            padding-right: 76.5px;
+        }
+
+        .IlacListelemeIcerik table tr td {
+            padding-left: 51px;
+            padding-right: 51px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+        }
+
+
+.BunyeIlacDuzenleme {
+    text-decoration: none;
+    background-color: #00e20099;
+    color: green;
+    border: 1px solid green;
+    padding: 2px 2px 0px 2px;
+    border-radius: 5px;
+}
+
+    .BunyeIlacDuzenleme:hover {
+        background-color: green;
+        color: White;
+    }
+
+.BunyeIlacSil {
+    text-decoration: none;
+    background-color: #ff8686;
+    color: red;
+    border: 1px solid red;
+    padding: 2px 7px 0px 7px;
+    border-radius: 5px;
+}
+
+    .BunyeIlacSil:hover {
+        background-color: #a10000;
+        border: 1px solid #a10000;
+        color: white;
+    }
+
+
+.IlacListelemeIcerik AlternatingItemTemplate {
+    background-color: #e3e3e3;
+}
+
+.BtnIlacEkle {
+    padding: 10px;
+    text-align: center;
+}
+
+.IlacEkle {
+    text-decoration: none;
+    background-color: orangered;
+    color: white;
+    padding: 5px 90px;
+    border-radius: 5px;
+}
+
+    .IlacEkle:hover {
+        background-color: #b33000;
+    }
+
+.IlacResim {
+    border: 1px solid black;
+    padding: 10px 15px;
+}
+
+.IlacIsim {
+    width: 400px;
+    padding: 5px 10px;
+    font-size: 15pt;
+}
+
+.IlacMarka {
+    width: 400px;
+    padding: 5px 10px;
+    font-size: 15pt;
+}
+
+
+.PNLhata {
+    width: 800px;
+    background-color: #fab9b9;
+    color: red;
+    border: 2px solid red;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 15pt;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+}
+
+.PNLhatasiz {
+    width: 800px;
+    background-color: #97f397;
+    color: green;
+    border: 2px solid green;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 15pt;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+}
+
+.IlacBilgisiDuzenlemePanel {
+    width: 800px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.IlacBilgisiDuzenlemeHeader {
+    text-align: center;
+    padding: 10px 7px 7px 7px;
+    background-color: #9f9f9f;
+    border: 2px solid black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.IlacBilgisiDuzenlemeIcerik {
+    border: 2px solid black;
+    margin-top: 10px;
+    padding: 10px;
+    padding-bottom: 40px;
+}
+
+.IlacBilgiDuzenlemeSatir {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.IlacBilgiDuzenlemeSatir label {
+    font-size: 14pt;
+    margin-left: 10px;
+}
+
+    .IlacBilgiDuzenlemeSatir .IlacBilgiDuzenlemeKutu {
+        margin-left: 25px;
+        margin-bottom: 20px;
+        width: 700px;
+        padding: 4px 8px;
+        font-size: 13pt;
+        border-radius: 7px;
+        border: 1px solid silver;
+        outline-color: #8d8d8d;
+    }
+
+        .IlacBilgiDuzenlemeSatir .IlacBilgiDuzenlemeKutu:hover {
+            background-color: #dddddd;
+        }
+
+        .IlacBilgiDuzenlemeSatir .IlacBilgiDuzenlemeKutu:focus {
+            border: 1px solid #8d8d8d;
+        }
+
+    .IlacBilgiDuzenlemeSatir .IlacBilgiDuzenlemeButtonSatir {
+        padding: 10px 5px 40px 5px;
+        
+    }
+
+        .IlacBilgiDuzenlemeButtonSatir .IlacDuzenlemeButtonDuzenleme {
+            background-color: orangered;
+            color: white;
+            padding: 10px 40px;
+            border-radius: 10px;
+            text-decoration: none;
+            margin-top: 10px;
+            margin-bottom: 15px;
+            margin-left: 500px;
+        }
+
+.IlacBilgiDuzenlemeButtonSatir .IlacDuzenlemeButtonDuzenleme:hover {
+    background-color: #8b2600;
+}
+
+.PanelBasariliBilgi {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #bbfbbb;
+    color: green;
+    border: 2px solid green;
+    border-radius: 10px;
+    padding: 15px 10px 10px 10px;
+    margin-top: 20px;
+}
+
+.PanelBasarisizBilgi {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffc4c4;
+    color: red;
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 15px 10px 10px 10px;
+    margin-top: 20px;
+}

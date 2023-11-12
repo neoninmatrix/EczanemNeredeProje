@@ -1,0 +1,430 @@
+﻿*, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Noto Sans Syriac Eastern', sans-serif;
+}
+
+header {
+    text-decoration: none;
+    user-select: none;
+    border-bottom: 3px solid #F44A52;
+    padding: 15px 10px;
+}
+
+    header .SiteLogo {
+        float: left;
+        width: 400px;
+    }
+
+        header .SiteLogo a {
+            text-decoration: none;
+        }
+
+        header .SiteLogo .Logo {
+            font-size: 35pt;
+            font-family: 'Noto Sans Syriac Eastern', sans-serif;
+            color: #F44A52;
+        }
+
+        header .SiteLogo .Slogan {
+            font-family: 'Bricolage Grotesque', sans-serif;
+            font-size: 15pt;
+            color: #a4a4a4;
+            cursor: pointer;
+            margin-left: 5px;
+        }
+
+    header .DikCizgi {
+        float: left;
+        width: 3px;
+        height: 80px;
+        background-color: #F44A52;
+        margin-left: 400px;
+        margin-top: -87px;
+    }
+
+.OrtaKisim {
+    float: left;
+    margin-left: 420px;
+    margin-top: -85px;
+    height: 60px;
+    width: 780px;
+    border-radius: 50px;
+    padding: 5px;
+    border: 2px solid #F44A52;
+}
+
+.AramaKutu {
+    float: left;
+    border-style: none;
+    width: 700px;
+    height: 30px;
+    margin-top: 3px;
+    outline: none;
+    font-size: 25pt;
+    padding: 12px 5px;
+    font-family: 'Noto Sans Syriac Eastern', sans-serif;
+    color: #7b7b7b;
+}
+
+.OrtaKisim:hover {
+    background-color: #d0d0d0;
+}
+
+.OrtaKisim:focus-within {
+    background-color: #d0d0d0;
+}
+
+.OrtaKisim:hover .AramaKutu {
+    background-color: #d0d0d0;
+}
+
+.OrtaKisim:focus-within .AramaKutu {
+    background-color: #d0d0d0;
+}
+
+.SagKisim {
+    float: left;
+    margin-left: 1225px;
+    margin-top: -65px;
+    width: 300px;
+    height: 25px;
+}
+
+    .SagKisim a {
+        color: #a4a4a4;
+        font-size: 15pt;
+        padding-left: 10px;
+    }
+
+        .SagKisim a:hover {
+            color: #777777;
+        }
+
+.HesapCikis {
+    border-left: 2px solid #a4a4a4;
+}
+
+.IlacAramaSatir {
+    background-color: #f11c26;
+    margin-top: 1px;
+    width: auto;
+    height: 250px;
+}
+
+    .IlacAramaSatir .IlacAramaYazi {
+        font-family: 'Noto Sans Syriac Eastern', sans-serif;
+        font-size: 20pt;
+        padding-top: 50px;
+        padding-left: 50px;
+        color: white;
+    }
+
+    .IlacAramaSatir .IlacAramaKutu {
+        background-color: white;
+        width: 1200px;
+        height: 70px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5px;
+        border-radius: 50px;
+    }
+
+.IlacAramaKutu:hover {
+    background-color: #d0d0d0;
+}
+
+    .IlacAramaKutu:hover .IlacArama {
+        background-color: #d0d0d0;
+    }
+
+.IlacAramaKutu:focus-within {
+    background-color: #d0d0d0;
+}
+
+    .IlacAramaKutu:focus-within .IlacArama {
+        background-color: #d0d0d0;
+    }
+
+
+.IlacArama {
+    width: 1050px;
+    height: 50px;
+    font-size: 25pt;
+    float: left;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    color: red;
+}
+
+    .IlacArama:hover {
+        background-color: #d0d0d0;
+    }
+
+    .IlacArama:focus-within {
+        background-color: #d0d0d0;
+    }
+
+.AciklamaYazi {
+    color: #c5c5c5dd;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.MakaleKategorileri {
+    margin-top: 10px;
+    border-bottom: 1px solid silver;
+}
+
+    .MakaleKategorileri ul {
+        list-style: none;
+        padding: 10px;
+    }
+
+    .MakaleKategorileri a {
+        float: left;
+        color: #b7b7b7;
+        text-decoration: none;
+        margin-right: 15px;
+    }
+
+
+        .MakaleKategorileri a:hover {
+            color: #727272;
+            text-decoration: underline;
+        }
+
+.OrtaIcerik {
+    width: 1100px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.MakalelerKisaPanel {
+    width: 500px;
+    height: 350px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 2px solid silver;
+    border-radius: 10px;
+    padding: 5px 7px;
+}
+
+    .MakalelerKisaPanel .BaslikKisaSatir {
+        border-bottom: 1px solid silver;
+        text-align: center
+    }
+
+    .MakalelerKisaPanel .MakaleResimKisaSatir img {
+        width: 250px;
+        height: 120px;
+        margin-left: 125px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .MakalelerKisaPanel .MakaleOzellikKisaSatir {
+        border-top: 1px solid silver;
+        border-bottom: 1px solid silver;
+        margin-bottom: 10px;
+    }
+
+.MakaleDevaminiOkuSatir {
+    margin-top: 20px;
+}
+
+.Resim {
+    margin-left: 310px;
+    width: 500px;
+    height: 250px;
+    margin-bottom: 40px;
+}
+
+.MakaleIcerik .MakaleBilgiSatir {
+    text-align: center;
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+    padding: 10px 15px;
+    padding-top: 12px;
+}
+
+.MakaleIcerik .MakaleBaslikSatir {
+    text-align: center;
+    margin-bottom: 50px;
+    border-bottom: 2px solid silver;
+    padding: 5px;
+}
+
+.MakaleIcerikSatir {
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+
+.MakaleDevaminiOkuSatir {
+    margin-left: 128px;
+}
+
+.MakaleDevamiButton {
+    text-decoration: none;
+    background-color: #F44A52;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 50px;
+    padding-top: 8px;
+}
+
+    .MakaleDevamiButton:hover {
+        background-color: #b53a40;
+    }
+
+/*.UyeBilgiButton {
+    background-color: red;
+}*/
+
+.UyeBilgisiButton {
+    width: 35px;
+    height: 25px;
+    float: left;
+    font-size: 10pt;
+    padding: 5px 7px 1px 5px;
+}
+
+.IlacPanel1 {
+    width: 800px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #7b7b7b;
+    background-color: #f1f1f1;
+}
+
+    .IlacPanel1:hover {
+        background-color: #cacaca;
+    }
+
+.IlacPanel2 {
+    width: 800px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #7b7b7b;
+    background-color: #d6d6d6;
+}
+
+    .IlacPanel2:hover {
+        background-color: #cacaca;
+    }
+
+.IlacIsimSatir {
+    text-align: left;
+    padding: 5px 10px;
+    border-bottom: 1px solid silver;
+}
+
+.IlacMarkaSatir, .MakalKategoriKisaSatir {
+    padding-left: 20px;
+    margin: 5px;
+}
+
+.IlacBilgiDevamı {
+    text-align: center;
+   /* background-color: #F44A52;*/
+    padding: 10px;
+   /* margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 2px;*/
+    cursor: pointer;
+}
+/*
+    .IlacBilgiDevamı:hover {
+        background-color: #c63c42;
+    }*/
+
+.sus {
+    margin-left: 10px;
+    background-color: #d0d0d0;
+    color: white;
+    padding: 8px 10px 5px 10px;
+    border-radius: 50%;
+}
+
+.IlacBilgiDevamı:hover .sus {
+    color: red;
+}
+
+.IlacBilgiDevamıButton {
+    text-decoration: none;
+    color: red;
+    border: 1px solid red;
+    padding: 12px 20px 10px 20px;
+}
+
+.IlacinDevamiPanel {
+    border: 2px solid silver;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.IlacinDevamiPanel label {
+    font-size: 17pt;
+}
+
+    .IlacinDevamiPanel .EczaneIsimSatir, .EczaneKonumSatir, .IlacBilgiIsim, .IlacBilgiMarka, .IlacBilgiKategori, .IlacBilgiAciklama {
+        margin-top: 10px;
+    }
+
+.EczaneBilgiKısmı {
+    padding: 5px;
+    border-bottom: 1px solid silver;
+}
+
+.EczaneIsimSatir label {
+    font-size: 20pt;
+}
+
+.EczaneIsimSatir .EczaneIsim {
+    font-size: 20pt;
+    color: #F44A52;
+}
+
+.EczaneKonumSatir label {
+    font-size: 20pt;
+}
+
+.KonumaGitBtn {
+    font-size: 18pt;
+    color: #F44A52;
+}
+
+.EczaneKonumSatir .EczaneKonum {
+    color: #F44A52;
+    font-size: 18pt;
+}
+
+.IlacIsim, .IlacMarka, .IlacKategori, .IlacAciklama {
+    font-size: 17pt;
+    color: #f37b81;
+}
+
+    .IlacIsim::before, .IlacMarka::before, .IlacKategori::before, .IlacAciklama::before {
+        content: '=>';
+        margin-right:5px;
+        color: black;
+    }

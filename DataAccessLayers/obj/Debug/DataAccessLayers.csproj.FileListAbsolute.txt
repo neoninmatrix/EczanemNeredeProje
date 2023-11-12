@@ -1,0 +1,6 @@
+C:\Users\Excalibur\source\repos\BuiltEtmeCabasi\DataAccessLayers\bin\Debug\DataAccessLayers.dll
+C:\Users\Excalibur\source\repos\BuiltEtmeCabasi\DataAccessLayers\bin\Debug\DataAccessLayers.pdb
+C:\Users\Excalibur\source\repos\BuiltEtmeCabasi\DataAccessLayers\obj\Debug\DataAccessLayers.csproj.AssemblyReference.cache
+C:\Users\Excalibur\source\repos\BuiltEtmeCabasi\DataAccessLayers\obj\Debug\DataAccessLayers.csproj.CoreCompileInputs.cache
+C:\Users\Excalibur\source\repos\BuiltEtmeCabasi\DataAccessLayers\obj\Debug\DataAccessLayers.dll
+C:\Users\Excalibur\source\repos\BuiltEtmeCabasi\DataAccessLayers\obj\Debug\DataAccessLayers.pdb

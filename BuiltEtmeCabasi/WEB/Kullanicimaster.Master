@@ -1,0 +1,81 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Kullanicimaster.master.cs" Inherits="BuiltEtmeCabasi.WEB.Kullanicimaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link href="../CSS/masterPageCSS.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@12..96&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Syriac+Eastern&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title></title>
+    <script src="../ckeditor/ckeditor.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <div class="header">
+            <div class="logo">
+                <h3 class="baslik1">EczanemNerede</h3>
+                <label class="slogan">Yüzlerce eczane ve ilaç hakkında bilgiler</label>
+            </div>
+            <div class="kullanicipanel">
+                Merhaba &nbsp;         
+               <em>
+                   <asp:Label CssClass="labelKullanici" ID="lbl_kullanici" runat="server"></asp:Label></em>
+                |  
+                <asp:LinkButton CssClass="cikisButton" ID="lnkbutton_cikis" runat="server" OnClick="lnkbutton_cikis_Click">Çıkış Yap</asp:LinkButton>
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+        <div class="sidebar">
+            <ul>
+
+                <a href="Anasayfa.aspx">
+                    <li>Ana Sayfa</li>
+                </a>
+
+                <a href="KategoriListeleme.aspx">
+                    <li>Kategori Listeleme</li>
+                </a>
+
+                <a href="KategoriEkleme.aspx">
+                    <li>Kategori Ekleme</li>
+                </a>
+
+              <%--  <a href="Anasayfa.aspx">
+                    <li>Makale Listeleme</li>
+                </a>--%>
+
+                <a href="MakaleListeleme.aspx">
+                    <li>Makale Listeleme</li>
+                </a>
+
+                <a href="MakaleEkleme.aspx">
+                    <li>Makale Ekleme</li>
+                </a>
+
+                <a href="UyeListeleme.aspx">
+                    <li>Üyeler</li>
+                </a>
+              
+            </ul>
+        </div>
+
+        <div class="icerik">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <script>
+            CKEDITOR.replace('ContentPlaceHolder1_txtbox_makale_makale_ekleme_icerik');
+        </script>
+    </form>
+</body>
+</html>
